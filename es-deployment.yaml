@@ -16,7 +16,7 @@ spec:
       - env:
         - name: ES_JAVA_OPTS
           value: -Xmx256m -Xms256m
-        image: fkhoda/elasticsearch
+        image: fkhoda/elasticsearch:5.4.0
         name: elasticsearch
         ports:
         - containerPort: 9200

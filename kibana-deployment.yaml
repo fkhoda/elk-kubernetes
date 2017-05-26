@@ -14,7 +14,7 @@ spec:
         name: kibana
     spec:
       containers:
-      - image: fkhoda/kibana
+      - image: fkhoda/kibana:5.4.0
         name: kibana
         ports:
         - containerPort: 5601
