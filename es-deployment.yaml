@@ -17,6 +17,7 @@ spec:
         - name: ES_JAVA_OPTS
           value: -Xmx256m -Xms256m
         image: fkhoda/elasticsearch:5.4.0
+        imagePullPolicy: Always
         name: elasticsearch
         ports:
         - containerPort: 9200

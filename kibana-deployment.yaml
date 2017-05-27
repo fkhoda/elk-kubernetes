@@ -15,6 +15,7 @@ spec:
     spec:
       containers:
       - image: fkhoda/kibana:5.4.0
+        imagePullPolicy: Always
         name: kibana
         ports:
         - containerPort: 5601
