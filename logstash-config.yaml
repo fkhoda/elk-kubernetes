@@ -34,5 +34,7 @@ data:
         hosts => "elasticsearch:9200"
         index => "%{[@metadata][beat]}-%{+YYYY.MM.dd}"
         document_type => "%{[@metadata][type]}"
+        user => elastic
+        password => changeme
       }
     }
