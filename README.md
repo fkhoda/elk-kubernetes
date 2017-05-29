@@ -3,6 +3,5 @@
 ## Usage
 
 ```
-kubectl create namespace dev
-kubectl create -f . -R --namespace=dev
+kubectl create -f .\kubefiles\ -R --namespace=default
 ```
