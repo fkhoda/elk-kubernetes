@@ -17,7 +17,7 @@ spec:
       - env:
         - name: LS_JAVA_OPTS
           value: -Xmx256m -Xms256m
-        image: fkhoda/logstash:5.4.0
+        image: fkhoda/logstash:5.5.1
         name: logstash
         ports:
         - containerPort: 5000
